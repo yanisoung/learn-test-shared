@@ -1,6 +1,10 @@
+application.pid
+
+#STS
+
 # Compiled class file
 *.class
-
+*.lst
 # Log file
 *.log
 
@@ -9,6 +13,12 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+#idea
+.idea
+*.iws
+*.iml
+*.ipr
 
 # Package Files #
 *.jar
@@ -21,3 +31,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/src/test/
+/.idea/
+/blog.iml
+/target/
+/learn-test-shared/target/classes/bootstrap.yml
